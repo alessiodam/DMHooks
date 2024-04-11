@@ -75,7 +75,7 @@ app.post('/interactions', async function (req, res) {
           return res.send({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: "Failed to get webhook",
+              content: "Webhook does not exist",
               flags: 64,
             },
           });
@@ -110,7 +110,7 @@ app.post('/interactions', async function (req, res) {
           return res.send({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: "Hook name is too long. Maximum 15 characters.",
+              content: "Webhook name is too long. Maximum 15 characters.",
               flags: 64,
             },
           });
@@ -130,7 +130,7 @@ app.post('/interactions', async function (req, res) {
           return res.send({
             type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
             data: {
-              content: "Failed to get newly created webhook",
+              content: "Failed to fetch newly created webhook",
               flags: 64,
             },
           });

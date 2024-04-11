@@ -3,6 +3,8 @@
 DMHooks is a way to send webhooks to your DMs, no more need to create a server for webhook logging!  
 It's in other terms a webhook -> DM proxy
 
+> All the data is stored in sqlite (database.sqlite3), if you delete that file, all data is lost.
+
 ## Installation
 
 Normal:

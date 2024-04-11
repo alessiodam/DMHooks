@@ -1,7 +1,7 @@
 {
-  "name": "getting-started",
+  "name": "dmhooks-discord-userapp",
   "version": "1.0.0",
-  "description": "Discord example app",
+  "description": "Simple userapp to proxy webhooks (compatible with traditional webhooks).",
   "main": "app.js",
   "type": "module",
   "engines": {
@@ -12,7 +12,7 @@
     "register": "node commands.js",
     "dev": "nodemon app.js"
   },
-  "author": "Shay DeWael",
+  "author": "TKB Studios < tkbstudios@mail.tkbstudios.com",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.8",

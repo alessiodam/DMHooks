@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  dmhooks:
+    image: ghcr.io/tkbstudios/DMHooks:master
+    container_name: dmhooks
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - type: bind
+        source: ./.env
+        target: /home/node/app/.env
+      - type: bind
+        source: ./database.sqlite3
+        target: /home/node/app/database.sqlite3
