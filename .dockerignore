@@ -1,0 +1,7 @@
+.git
+node_modules
+.env
+database.sqlite3
+.github
+Dockerfile
+docker-compose.yml
