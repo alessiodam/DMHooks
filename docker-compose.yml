@@ -2,7 +2,7 @@ version: "3"
 
 services:
   dmhooks:
-    image: ghcr.io/tkbstudios/DMHooks:master
+    image: ghcr.io/tkbstudios/dmhooks:master
     container_name: dmhooks
     restart: unless-stopped
     ports:
